@@ -3,11 +3,12 @@ import React from "react";
 
 
 const SpaceCard = props =>{
+    console.log(props.title)
     return (
         <div className= "space">
         
         
-         
+         <h3>Title of photo:</h3><p>{props.title}</p>
          <h3>Date:</h3> <p>{props.date}</p>
        <h3> Explanation:</h3>  <p>{ props.explanation}</p>
         <img src= {props.spacePhoto} alt ="NASA stuff"></img>

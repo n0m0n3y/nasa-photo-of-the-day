@@ -12,8 +12,7 @@ function App() {
       <img className="logo" src= "/img/nasablack.png" alt= "Space Logo"/>
       <h1>Welcome to my NASA Photo of the day page</h1>
       <h2>Im Pulling a Photo of the day from the NASA API</h2>
-      <SpacePhoto/>
-      <SpaceCard/>
+       <SpacePhoto/>
       </div>
     </div>
     );
