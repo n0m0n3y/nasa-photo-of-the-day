@@ -5,13 +5,13 @@ import React from "react";
 const SpaceCard = props =>{
     return (
         <div className= "space">
-        <h2>Title:{props.data.title}</h2>
-        <p>
-         {""}
-         Date:{props.data.date}</p>
-        <p>Explanation:{props.data.explanation}</p>
-        <div>{props.data.url}</div>
-        <p>Copyright: {props.data.copyright}</p>
+        
+        
+         
+         <h3>Date:</h3> <p>{props.date}</p>
+       <h3> Explanation:</h3>  <p>{ props.explanation}</p>
+        <img src= {props.spacePhoto} alt ="NASA stuff"></img>
+       <h3> Copyright:</h3> <p>{props.copyright}</p>
         </div>
     )
 }
