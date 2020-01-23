@@ -19,7 +19,7 @@ import { Card,  CardImg, CardBody,
 // }
 <Card>
       <CardTitle>Title of photo: {props.title}</CardTitle>
-      <CardImg top width="80%" src={props.spacePhoto} alt="Card image cap" />
+      <CardImg top width="80%" src={props.spacePhoto} alt="Space image" />
       <CardBody>
         <CardText>Explanation:{props.explanation}</CardText>
         <CardText>Image Credit & Copyright:{props.copyright}</CardText>
