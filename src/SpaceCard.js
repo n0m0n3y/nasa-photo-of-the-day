@@ -17,11 +17,13 @@ import { Card,  CardImg, CardBody,
 //         </div>
 //     )
 // }
+
+
 <Card>
-      <CardTitle>Title of photo: {props.title}</CardTitle>
-      <CardImg top width="80%" src={props.spacePhoto} alt="Space image" />
+      <CardTitle className="title">Title of photo: {props.title}</CardTitle>
+      <CardImg top width="80%" src={props.spacePhotoHd} alt="Space image" />
       <CardBody>
-        <CardText>Explanation:{props.explanation}</CardText>
+        <CardText className='explain'>Explanation:{props.explanation}</CardText>
         <CardText>Image Credit & Copyright:{props.copyright}</CardText>
         <CardText>Date: {props.date}</CardText>
 

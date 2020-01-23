@@ -23,7 +23,8 @@ useEffect(() => {
          <SpaceCard title = { SpacePhoto.title} 
          date = { SpacePhoto.date} 
          explanation = { SpacePhoto.explanation} 
-         spacePhoto = { SpacePhoto.url}  
+         spacePhoto = { SpacePhoto.url}
+         spacePhotoHd =  { SpacePhoto.hdurl}
          copyright = { SpacePhoto.copyright} 
         />
   
