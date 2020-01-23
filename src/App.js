@@ -1,7 +1,12 @@
 import React from "react";
 import "./App.css";
 import SpacePhoto from "./SpacePhoto";
-import SpaceCard from "./SpaceCard";
+
+
+
+
+
+
 
 function App() {
  
